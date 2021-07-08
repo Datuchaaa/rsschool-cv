@@ -1,2 +1,2 @@
 # rsschool-cv
-#### https://datuchaaa.github.io/rsschool-cv/cv/
+#### https://datuchaaa.github.io/rsschool-cv/cv

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="225" height="32" viewBox="0 0 225 32">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 41.049px;
+        filter: url(#filter);
+        fill: #fff;
+        text-anchor: middle;
+        font-family: "Lucida Sans";
+        font-style: italic;
+        text-transform: uppercase;
+      }
+    </style>
+    <filter id="filter" x="0" y="0" width="225" height="32" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="2" in="SourceAlpha"/>
+      <feGaussianBlur result="blur"/>
+      <feFlood result="flood" flood-opacity="0.42"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <text id="TheYalow" class="cls-1" x="107" y="30"><tspan x="107">TheYalow</tspan></text>
+</svg>

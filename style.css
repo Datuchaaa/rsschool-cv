@@ -4,9 +4,11 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
-    font-family: 'Segoe WP';
+    /* font-family: 'Segoe WP'; */
+    /* font-family: 'Work Sans', sans-serif; */
+    font-family: 'Josefin Sans', sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     /* src: local('Segoe WP'), url('https://fonts.cdnfonts.com/s/13139/SegoeWP.woff') format('woff'); */
 
 }
@@ -54,18 +56,19 @@ li {
     border: solid 1.5px wheat;
     transition: 0.5s;
     cursor: pointer;
-    font-weight: 800;
+    /* font-weight: 800; */
     box-shadow: 0px 1px 16px 7px rgb(180 180 243 / 44%);
 }
 li:hover{
     background-color: rgb(87, 71, 71);
     border: none;
     box-shadow: 0px 1px 16px 7px rgb(180 180 243);
+    transform: translateY(-4px);
 }
 h2{
     color: wheat;
     padding-left: 10px;
-    font-weight: 800;
+    /* font-weight: 800; */
     display: flex;
     align-self: center;
 }
@@ -85,7 +88,7 @@ h2{
     border-radius: 100%;
     border: solid 5px wheat;
     background-color: #007ced;
-    font-weight: 800;
+    /* font-weight: 800; */
     font-size: 1.5rem;
     display: flex;
     align-items: center;
@@ -96,6 +99,7 @@ h2{
 }
 .name_id:hover{
     border: solid 5px rgb(231, 176, 75);
+    transform: translateY(-5px);
 }
 
 
@@ -123,6 +127,7 @@ h2{
 }
 .avatar:hover{
     border: solid 20px rgb(231, 176, 75);
+    transform: translateY(-7px);
 }
 
 .bio{
@@ -134,7 +139,7 @@ h2{
 
 .bio h1 {
     font-size: 3rem;
-    font-weight: 800;
+    /* font-weight: 800; */
 }
 .buttons{
     display: flex;
@@ -152,14 +157,14 @@ h2{
     align-items: center;
     color: wheat;
     justify-content: center;
-    font-weight: 800;
+    /* font-weight: 800; */
     transition: 0.5s;
     cursor: pointer;
     box-shadow: 3px 1px 16px 7px rgb(0 0 0 / 30%);
 }
 .download:hover{
     background-color: #007ced;
-    padding-bottom: 3px;
+    transform: translateY(-4px);
     color: rgb(231, 176, 75);
     
 }
@@ -173,7 +178,7 @@ h2{
     align-items: center;
     justify-content: center;
     color: wheat;
-    font-weight: 800;
+    /* font-weight: 800; */
     transition: 0.5s;
     cursor: pointer;
     box-shadow: 3px 1px 16px 7px rgb(0 0 0 / 30%);
@@ -181,7 +186,7 @@ h2{
 .contact:hover{
     background-color: wheat;
     color: #333;
-    padding-bottom: 3px;
+    transform: translateY(-4px);
 }
 
 .Work-experience-section{

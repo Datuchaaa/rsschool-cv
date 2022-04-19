@@ -392,8 +392,8 @@ h3 {
 }
 .languages .head{
     display: flex;
-    height: 70px;
-    border-bottom: solid 2px #e6e9ed;
+    /* height: 70px; */
+    /* border-bottom: solid 2px #e6e9ed; */
 }
 h3 {
     width: 100%;
